@@ -28,9 +28,8 @@ async def start(c, m, cb=False):
     # start text
     text = f"""Hey! {m.from_user.mention(style='md')}
 
-💡 ** I am Telegram File Store Bot**
-
-`You can store your Telegram Media for permanent Link!`
+ **I am File Store Bot Of @cinemacollectiongroup** 🔥
+**Share Our Group Link Maximum⚡..Thanks For Supporting😍**
 
 
 **👲 Maintained By:** {owner.mention(style='md')}
@@ -39,7 +38,7 @@ async def start(c, m, cb=False):
     # Buttons
     buttons = [
         [
-            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/{owner_username}"),
+            InlineKeyboardButton('My Father 👨‍✈️', url=f"https://t.me/AbhinaveS"),
             InlineKeyboardButton('Help 💡', callback_data="help")
         ],
         [
